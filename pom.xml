@@ -9,6 +9,7 @@
   <modules>
       <module>my-app-module</module>
       <module>integration-tests</module>
+      <module>dist</module>
   </modules>
   <properties>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
