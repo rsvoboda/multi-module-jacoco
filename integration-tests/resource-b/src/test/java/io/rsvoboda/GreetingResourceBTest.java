@@ -17,5 +17,13 @@ public class GreetingResourceBTest {
                 .statusCode(200)
                 .body(is("Hello RESTEasy"));
     }
+    @Test
+    public void testoldEndpoint() {
+        given()
+                .when().get("/old/B")
+                .then()
+                .statusCode(200)
+                .body(is("Hello RESTEasy"));
+    }
 
 }
